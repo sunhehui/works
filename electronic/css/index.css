@@ -1,0 +1,14 @@
+#numList{position:absolute;top:860px;left: 960px;z-index:10;width: 60%;list-style: none;}
+#numList li{float:left;height:14px;width:14px;background-color:#000;border-radius: 10px;margin-left: 10px;cursor: pointer;}
+#numList .active{background-color:#fff;}
+section.main ul.left{float: left;}
+section.main ul.left li img{margin-bottom: 15px;}
+section.main ul.left li{color: #909090;font-size: 0.8rem;text-align: center;}
+.picList{float: right;width:78%;}
+section.main .main-bottom{width:90%;margin:20px auto;}
+section.main .main-bottom .demo{width:30%;float: left;text-align: center;padding-bottom: 20px;}
+section.main .main-bottom .demo:nth-child(3n-1){margin:0 4.6846%;}
+section.main .main-bottom .demo li{font-size: 0.8rem;line-height: 1.5rem;}
+section.main .main-bottom .demo li:nth-child(2){color: #a0a0a0;}
+section.main .main-bottom .demo li:nth-child(3){color: #555555;}
+section.main .main-bottom .demo li:nth-child(4){color: #eca0a0;}                       

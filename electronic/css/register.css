@@ -1,0 +1,6 @@
+section.main form{width:50%;margin:100px auto;}
+section.main form>input{width:50%;height:30px;margin-bottom: 20px;}
+section.main form>input:nth-child(10){margin:0;}
+section.main form span{color:#666;}
+section.main form>span{line-height: 2rem;}
+section.main form .bottom{width:70.7820%;float: right;text-align: center;margin-top:20px;line-height: 2rem;}

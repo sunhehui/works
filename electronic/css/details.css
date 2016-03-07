@@ -1,0 +1,19 @@
+section.main .top{padding:50px 0;border-bottom: 1px solid rgb(206, 206,206);}
+section.main .top .left{width:40%;float: left;margin:0 5%;}
+section.main .top .right{width:50%;float: left;}
+section.main .top .right table td{padding:10px;}
+section.main .top .right table td:first-child{color: #969696;}
+section.main .top .right table td:nth-child(2){color: #676767;}
+section.main .top .right table a{color: #333;font-size: 1.2rem;}
+.buy{width:60%;background-color: #F19EAB;padding:20px 0;text-align: center;font-size: 1.5rem;margin-bottom: 10px;}
+.buy a{color: #fff;}
+.shop-car{margin-right: 7.4%;}
+.shop-car,.collect{width:25%;border:4px solid #D1D2D4;padding:15px 0;text-align: center;float: left;margin-bottom: 20px;}
+.shop-car a,.collect a{color:#BABABA;}
+.share{width:40%;float: left;}
+.share a img{width:30px;height:30px;margin-right:5px;}
+.share a:hover{opacity: 0.7;}
+section.main .bottom{text-align: center;padding:40px 0;}
+section.main .bottom img{margin:30px 0;}
+article h5{color:rgb(74, 74, 74);font-size: 1rem;margin:20px 0;}
+article p{color:rgb(135, 135, 135);font-size: 0.8rem;font-weight: lighter;}

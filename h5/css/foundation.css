@@ -1,0 +1,66 @@
+.main{
+	background-image: url(../images/main_bg_03.gif);
+}
+.main-inner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 940px;
+	margin:0 auto;
+}
+.content{
+	float: left;
+   width: 620px;
+}
+.content img{display: block;float: left;}
+.content h1{
+	margin:30px 0;
+	color:white;
+	font-size: 35px;
+}
+.lorem-one,.lorem-two,.sed,.con{
+	font-family: "微软雅黑";
+	font-size: 12px;
+     color: rgb(127,127,127);
+     line-height: 25px;
+ }
+ .lorem-one{
+ 	margin-bottom:15px;
+ }
+ .lorem-two{
+ 	/*width: 341px;*/
+ 	float: right;
+ 	margin:0 25px;
+
+ }
+ .sed{
+ 	width: 620px;
+	float: left;
+}
+.sidebar{
+	margin-top: 25px;
+	float: right;
+	width: 300px;
+}
+.roll{
+	font-family: Cambria;
+	color: white;
+	width: 300px;
+	height: 50px;
+	background-color: black;
+	line-height: 48px;
+	text-indent: 20px;
+	font-size: 25px; 
+	border-radius: 10px;
+}
+.con{
+     margin:10px 10px;
+}
+.sidebar li{
+	width: 280px;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	line-height: 35px;
+	font-size: 14px;
+	color: white;
+	border-bottom: 1px dotted rgb(60,61,61);
+}

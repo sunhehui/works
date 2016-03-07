@@ -1,0 +1,235 @@
+/*header部分*/
+.header{
+	height: 143px;
+	background-color: black;
+}
+.header-inner{
+	margin:0 auto;
+	width: 970px;
+	height: 143px;
+	background-color: black;
+}
+.circle{
+	display: block;
+	float: left;
+	margin:25px 0;
+}
+.nav li{
+	float: left;
+	margin:65px 13px;
+}
+.nav a{
+	text-decoration: none;
+	color: rgb(123,123,121);
+    font-family: "微软雅黑";
+}
+.header-inner h1{
+	float: left;
+	margin-top: 45px;
+	margin-right: 20px;
+	word-spacing: -10px;
+	font-family:Bookman Old Style;
+	font-size: 45px;
+}
+/*banner部分*/
+.banner{
+	background-image: url(../images/banner_bg_03.gif);
+}
+.banner-inner{
+	position: relative;
+	padding-top: 30px;
+	margin:0 auto;
+	height: 318px;
+	width: 940px;
+}
+.banner h1{
+     font-size: 30px;
+	color: white;
+	font-family: Shonar Bangla;
+}
+.banner p{
+	line-height: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(127,125,105);
+	font-family: "微软雅黑"；
+}
+.banner p a{
+	color: rgb(204,40,0);
+}
+.banner img{
+	position: absolute;
+	top:-36px;
+	right:-10px;
+}
+/*main部分*/
+.main{
+   background-image: url(../images/main_bg_03.gif);
+}
+.main-inner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 940px;
+	margin:0 auto;
+}
+.main img{
+	display: block;
+
+}
+.content{
+	float: left;
+   width: 620px;
+}
+.content h1{
+	color:white;
+	font-size: 30px;
+	margin-top:10px;
+}
+/*con-top部分*/
+.con-top{
+	width: 620px;
+	border-bottom:1px dotted rgb(60,61,61);
+}
+
+.time{
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	font-size: 35px;
+	text-align: center;
+	font-family: "微软雅黑"；
+}
+.tuesday,.monday{
+	height: 15px;
+	width: 60px;
+	background-color: rgb(220,79,0);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color:white;
+	font-size: 10px;
+	text-align: center;
+}
+.lorem{
+	margin-top: 25px;
+	margin-left:80px;
+	
+}
+.lorem,.stet,.troop p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+     color: rgb(127,127,127);
+     line-height: 25px;
+}
+
+/*con-bottom部分*/
+.con-bottom{
+	width: 620px;
+}
+.con-bottom img{
+float: left;
+margin:20px;
+}
+.clear-box{
+	clear:both;
+}
+.stet{
+     float: right;
+     margin-top:20px;
+}
+/*sidebar部分*/
+.sidebar{
+	float: right;
+	margin-top: 20px;
+	width: 300px;
+}
+.sidebar-title{
+	margin-bottom: 10px;
+	font-family: Cambria;
+	width: 300px;
+	height: 48px;
+	background-color: black;
+	border-radius:10px;
+	color: white;
+	line-height: 48px;
+	text-indent: 20px;
+	font-size: 25px; 
+}
+
+.sidebar li{
+	list-style: none;
+	color: white;
+	width: 280px;
+	font-family: Arial;
+    line-height: 35px;
+	font-size: 14px;
+	border-bottom: 1px dotted rgb(60,61,61);
+}
+.sidebar li a{
+	background-image: url(../images/sanjiao_03.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+	color: white;
+	font-style: italic;
+}
+.troop{
+	width: 300px;
+	float: right;
+	height: 233px;
+	margin:10px -4px;
+	background-color: rgb(15,16,16);
+	border-radius: 10px;
+}
+.troop img{
+	margin:0 auto;
+}
+.troop h2{
+	color: white;
+	margin:17px;
+	letter-spacing: -2px;
+}
+.troop p{
+	float: left;
+    margin:17px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer部分*/
+.footer{
+	background-image: url(../images/footer_bg_03.gif);
+	height: 113px;
+	padding-top: 37px;
+}
+.footer p{
+	float: left;
+	margin-left:150px;
+	text-align: center;
+	color: rgb(121,127,127);
+	font-weight: bold;
+	font-family: "微软雅黑";
+	line-height:30px;
+}
+.footer p a{
+	color: rgb(204,40,0);
+}
+.footer img{
+	display: block;
+	float: right;
+	margin:20px 180px;
+}

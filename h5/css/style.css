@@ -1,0 +1,94 @@
+/*header部分*/
+.header{
+	height: 143px;
+	background-color: black;
+}
+.header-inner{
+	margin:0 auto;
+	width: 970px;
+	height: 143px;
+	background-color: black;
+}
+.circle{
+	display: block;
+	float: left;
+	margin:25px 0;
+}
+.nav li{
+	float: left;
+	margin:65px 13px;
+}
+.nav a{
+	text-decoration: none;
+	color: rgb(123,123,121);
+    font-family: "微软雅黑";
+}
+.header-inner h1{
+	float: left;
+	margin-top: 45px;
+	margin-right: 20px;
+	word-spacing: -10px;
+	font-family:Bookman Old Style;
+	font-size: 45px;
+}
+
+.more{
+	width: 106px;
+	height: 40px;
+	background-color: rgb(208,49,0);
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-size: 30px;	
+}
+
+
+/*main部分*/
+.main{
+   background-image: url(../images/main_bg_03.gif);
+}
+.main-inner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 940px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/*footer部分*/
+.footer{
+	background-image: url(../images/footer_bg_03.gif);
+	height: 113px;
+	padding-top: 37px;
+}
+.footer p{
+	float: left;
+	margin-left:150px;
+	text-align: center;
+	color: rgb(121,127,127);
+	font-weight: bold;
+	font-family: "微软雅黑";
+	line-height:30px;
+}
+.footer p a{
+	color: rgb(204,40,0);
+}
+.footer img{
+	display: block;
+	float: right;
+	margin:20px 180px;
+}
+/*所有a标签去掉下划线*/
+a{
+	text-decoration: none;
+}
+
+
+
+.clear-box{
+	clear:both;
+}

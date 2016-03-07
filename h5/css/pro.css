@@ -1,0 +1,102 @@
+.main{
+	background-image: url(../images/main_bg_03.gif);
+}
+.main-inner{
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 940px;
+	margin:0 auto;
+}
+.content{
+	margin:30px 0;
+	color:white;
+   width: 620px;
+}
+.con-top h1,.con-bottom h1{
+	font-size: 35px;
+}
+.con-top{
+	border-bottom:1px dotted rgb(60,61,61);
+}
+
+.con-top p{
+	margin-top: 10px;
+	color: rgb(127,127,127);
+     line-height: 25px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.left{
+	float: left;
+}
+.left li,.right li,.sidebar li{
+	font-family: "微软雅黑";
+	margin:15px 0;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 1px dotted rgb(60,61,61);
+}
+.left li{
+	width: 301px;
+}
+.right li{
+	width: 290px;
+}
+.left li a,.right a,.sidebar a{
+	color: white;
+	font-style: italic;
+}
+.right{
+	float: right;
+}
+
+
+.lorem-one,.lorem-two,.sed,.sidebar p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+     color: rgb(127,127,127);
+     line-height: 25px;
+ }
+ .con-bottom img{float: left;}
+ .lorem-one{
+ 	margin-bottom:15px;
+ }
+ .lorem-two{
+ 	float: right;
+ 	margin:0 25px;
+ }
+ .sed{
+ 	width: 620px;
+	float: left;
+}
+.con-bottom h1{
+	margin:10px 0;
+}
+
+
+.sidebar{
+	position: absolute;
+	bottom:50px;
+	right:0px;
+	width: 300px;
+}
+.sidebar-title-top,.side-title-bottom{
+	margin-top: 20px;
+	font-family: Cambria;
+	color: white;
+	width: 300px;
+	height: 50px;
+	background-color: black;
+	line-height: 48px;
+	text-indent: 20px;
+	font-size: 25px; 
+	border-radius: 10px;
+}
+.sidebar img{
+	display: block;
+	margin:25px auto;
+}
+.sidebar p,.sidebar ul,.more{
+	margin-left:18px;
+}

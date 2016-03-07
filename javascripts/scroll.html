@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片在页面滚动</title>
+	<link rel="stylesheet" href="fa/css/font-awesome.css">
+	<style>
+       .side{position:absolute;top:35%;left:0;width: 100px;position:fixed;}
+       img{height: 100%;}
+       span{float: left;color:#707070;width:70px;height:50px;font-size:30px;text-indent:17px;line-height:50px;transition:width 500ms,height 500ms,color 500ms;}
+       span:nth-child(1){background-color:#30F6B7;}
+       span:nth-child(2){background-color:#FBF15C;}
+       span:nth-child(3){background-color:#C372FE;}
+       span:nth-child(4){background-color:#79FB49;}
+       span:hover{width: 100px;height: 60px;color: #fff;}
+       a{display: block;padding: 0 30px;text-align: center;line-height: 50px;
+        text-decoration: none;height: 50px;color: #000;}
+	</style>
+</head>
+<body>
+    <a href="index.html">返回主页</a>
+    <div class="box1">
+    	<img src="images/pic7.jpg">  
+     	<img src="images/pic8.jpg">
+     	<img src="images/pic9.jpg">
+     	<img src="images/pic10.jpg">
+    </div>	
+
+    <div class="side">
+    	<span><i class="fa fa-gift"></i></span>
+    	<span><i class="fa fa-github-alt"></i></span>
+    	<span><i class="fa fa-facebook-square"></i></span>
+    	<span><i class="fa fa-twitter-square"></i></span>
+    </div>
+    <script src="jquery-1.11.1.js"></script>
+    <script>
+       $("span").click(function(){
+          var ind = $(this).index();
+       	  var scroll_offset = $(".box1 img:nth-child("+(ind+1)+")").offset();  //得到想跳到哪的offset，包含两个值，top和left
+           $("body,html").animate({
+             scrollTop:scroll_offset.top  //让body的scrollTop等于top，就实现了滚动
+           },700);
+       })
+        
+    </script>
+</body>
+</html>

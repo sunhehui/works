@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片坐标</title>
+	<style>
+      img{width: 200px;height: auto;cursor: pointer;}
+      .active{width: 440px;height: 440px;}
+      a{display: block;padding: 0 10px;text-align: center;line-height: 50px;
+        text-decoration: none;height: 50px;color: #000;}
+	</style>
+</head>
+<body>
+  <a href="index.html">返回主页</a>
+	<div class="box">
+		<img src="images/pic1.jpg" class="pic">
+		<img src="images/pic2.jpg" class="pic">
+		<img src="images/pic3.jpg" class="pic">
+		<img src="images/pic4.jpg" class="pic">
+	</div>
+    <div class="big">
+	    <img src="" id="view">
+    </div>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+      $(".pic").mouseover(function(event){
+      	 var ind = $(this).index();
+      	 // console.log(ind);
+         // alert(event.pageX+" "+event.pageX)       
+         $("#view").attr("src","images/pic"+(ind+1)+".jpg").addClass("active").fadeIn(200);     
+      }).mousemove(function(event){
+      	 var x = event.pageX;
+         var y = event.pageY;
+         $("#view").css({"position":"absolute","top":y+20,"left":x+20})//写在mousemove
+      }).mouseout(function(){
+         $("#view").fadeOut(200);
+      })
+      
+	</script>
+</body>
+</html>

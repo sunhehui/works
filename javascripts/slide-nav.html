@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>滚动导航</title>
+	<style>
+    body{background-color: #666;font-family: "微软雅黑";}
+		.clearfix:before,.clearfix:after{content: "";display: table;}
+		.clearfix:after{clear: both;}
+		.clearfix{zoom:1;clear: both;}
+		nav{/*height: 40px;*//*background-color: #666;*/}
+		ul{overflow: hidden;height: 50px;width:44%;margin:50px auto;padding:0;}
+		li{float: left;list-style:none;}
+		span{background-color: black;color: white;}
+		a,span{display: block;padding: 0 30px;text-align: center;line-height:50px;text-decoration: none;height: 50px;}        
+	  a{background-color: white;color: #000;}
+    </style>
+</head>
+<body>
+	<a href="index.html">返回主页</a>
+	<!-- 滚动导航 -->
+	<nav>
+	    	<ul>
+	    		<li><span>HOME</span><a href="#">HOME</a></li>
+	    		<li><span>HOME</span><a href="#">HOME</a></li>
+	    		<li><span>HOME</span><a href="#">HOME</a></li>
+          <li><span>HOME</span><a href="#">HOME</a></li>
+          <li><span>HOME</span><a href="#">HOME</a></li>
+	    	</ul>
+	</nav>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+  //利用animata方法滑动显示
+          $("span").hover(function(){
+          	$(this).animate({
+          		"margin-top":-50,
+          	},500);
+          },function(){
+             $(this).animate({
+          		"margin-top":0,
+          	},500)
+          });
+         
+	</script>
+</body>
+</html>

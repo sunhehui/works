@@ -1,0 +1,12 @@
+.banner{background-image: url(../images/portfolio-header.jpg);-webkit-background-size:cover;
+	background-position:center;padding:250px 0;position: relative;z-index: -1;margin-top: -20px;}
+	.header-top nav li:nth-child(3){background-color: #333333;transition:background-color 700ms;}
+.header-top nav li:nth-child(3):hover{background-color: #202020;}
+.main-inner{width: 80%;margin:0 auto;text-align: center;padding:80px 0;}
+.main-inner p{width:50%;margin:40px auto;font-size: 1.4em;}
+.main-inner .pic-group img{float: left;opacity:0.6;height: auto;transition:opacity 700ms;}
+.main-inner .pic-group img:hover{opacity: 1;}
+.main-inner .pic-group{width: 100%;margin: 0 auto;}
+.group-top img{width: 33%;}
+.group-middle img{width:24.7%;}
+.group-bottom img{width:33%;}

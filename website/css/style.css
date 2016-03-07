@@ -1,0 +1,37 @@
+.clearfix:before,.clearfix:after{content:"";display: table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+a{text-decoration: none;}
+body{background-color: #101010;font-family:arial;font-size: 10px;font-weight: bold;}
+h2{font-size: 3em;color: #fff}
+p{color:#808080;line-height: 1.5em;}
+.header-inner{width: 75%;margin:0 auto;}
+.header-top{background-color: #202020;margin-top: 20px;border-left: 6px solid #d54ab6;}
+.header-top .logo{float: left;width: 20%;}
+.header-top nav{float:right;width: 50%;font-weight: bold;}
+.header-top nav li{float: left;list-style: none;padding:25px 4%;}
+.header-top nav li a{color:#f2f2f2;transition:color 700ms;font-size: 1.4em;}
+.header-top nav li a:hover{color:#ffa500;}
+footer{background-color:#1c1c1c;}
+.footer-inner{width: 80%;margin:0 auto;padding:40px 0;}
+.footer-inner .left{width: 45%;float: left;color: #808080;font-size: 1.4em;}
+.footer-inner .left p{line-height: 1.5em;}
+.footer-inner .left li{/*line-height: 2em;*/margin:20px 0;}
+.footer-inner .left li .fa{margin-right:4%;}
+.footer-inner .center{width: 20%;float: left;}
+.footer-inner .center h3,.footer-inner .right h3{margin:15px 0;color: #fff;font-size: 2.4em;}
+.footer-inner .center a{color: #999;font-size: 1.4em;line-height: 2em;}
+.footer-inner .center a:hover{color: white;}
+.footer-inner .right{width: 35%;float: left;}
+.footer-inner .right p{color: #999;line-height: 1.5em;}
+.footer-inner .right a{display:block;padding: 12px 0;font-size: 1.4em;text-indent: 10px;}
+.submit{width: 30%;color:#fff;border: 2px solid #fff;transition:background-color 700ms,border 700ms,color 700ms;}
+.submit:hover{background: #009988;border-color: transparent;color:#333;}
+.enter{color: #fff;width:70%;margin-top:20px;margin-bottom:10px;border: 2px solid #fff;transition:background-color 700ms,border 700ms;}
+.enter:hover{background-color:#806040;border-color:transparent;}
+.copy-inner{padding:40px 0;width: 80%;margin: 0 auto;color:#808080;word-spacing:5px;}
+.copy-inner p,.copy-inner ul{float: left;}
+.copy-inner ul{margin-left:12%;margin-top:-10px;width:40%;}
+.copy-inner ul li{float: left;font-size: 2em;margin-right:4%;}
+.copy-inner ul li a{color:#909090;padding:7px 15px;background-color:#303030;transition:background-color 700ms,color 700ms;}
+.copy-inner ul li a:hover{background-color: #d54ab6;color:#fff;}

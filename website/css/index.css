@@ -1,0 +1,33 @@
+.header-top nav li:first-child{background-color: #333333;transition:background-color 700ms;}
+.header-top nav li:first-child:hover{background-color: #202020;}
+.banner{top:-20px;left:0;z-index: -1;position: relative;background-image: url(../images/home-bg.jpg);
+	background-position:center;padding:200px 0;-webkit-background-size: cover;
+	background-size: cover;position: relative;}
+.banner h1{color: #fff;font-size: 4em;letter-spacing: 2px;width: 50%;margin:0 auto;margin-right: 30px;}
+.main-inner{width: 80%;margin: 0 auto;}
+.main-top a{display: block;padding:40px 0;float: left;width: 30%;margin-top:-60px;transition:margin-top 500ms;}
+.main-top a:hover{margin-top: -80px;}
+.main-top a:nth-child(1){background-color: #c14000;}
+.main-top a:nth-child(2){background-color: #009988;margin-left:50px;margin-right:50px;}
+.main-top a:nth-child(3){background-color: #ffa500;}
+.main-top .demo .circle{border:2px solid #fff;border-radius: 50%;width: 80px;height: 80px;margin:0 auto;text-align: center;}
+.main-top .demo .circle i{font-size: 3em;color: #fff;line-height: 80px;}
+.main-top .demo h2{color: #fff;text-align: center;margin:15px 0;}
+.main-top .demo p{color:#f8e8e0;text-align: center;font-size: 1.4em;line-height:1.6em;width: 90%;margin:0 auto;}
+.main-middle{width: 100%;background-color:#191919;margin:100px 0;}
+.main-middle img{width: 50%;height: auto;display: block;float: left;}
+.main-middle .right{padding:40px 4%;width: 42%;float: left;}
+.main-middle .right h2{color: #fff;}
+.main-middle .right p{color: #808080;font-size: 1.4em;margin:20px 0;line-height: 1.5em;}
+.main-middle .right a{display: block;border:2px solid #fff;width: 28%;text-align: center;
+	padding:14px 0;font-size: 1.3em;color: #fff;transition:color 800ms,background-color 800ms,border 800ms;}
+.main-middle .right a:hover,.main-bottom a:hover{color: #333;background-color:#009988;border-color:transparent;}
+.main-bottom{text-align: center;margin-bottom: 50px;}
+.main-bottom h2{color: #fff;}
+.main-bottom p{font-size: 1.6em;color: #808080;width: 63%;margin:30px auto;line-height: 1.5em;}
+.main-bottom .pic-top img{width: 33%;height: auto;opacity: 0.6;transition:opacity 700ms;float: left;}
+.main-bottom .pic-bottom{margin-bottom:30px;}
+.main-bottom .pic-bottom img{width: 24.76%;height: auto;opacity: 0.6;transition:opacity 700ms;float: left;}
+.main-bottom img:hover{opacity: 1;}
+.main-bottom a{display: block;width:12%;margin:0 auto;padding:12px 0;border:2px solid #fff;
+	font-size: 1.4em;color: #fff;transition:color 800ms,background-color 800ms,border 800ms;}
